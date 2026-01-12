@@ -89,7 +89,7 @@ export default defineNuxtConfig({
     repository: {
       provider: 'github',
       owner: 'tribeweb',
-      repo: 'bible',
+      repo: 'biblelabs',
       branch: 'main'
     }
   }
