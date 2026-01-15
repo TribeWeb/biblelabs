@@ -8,8 +8,13 @@ export default defineNuxtConfig({
     'nuxt-og-image',
     'nuxt-llms',
     '@nuxtjs/mcp-toolkit',
-    'nuxt-studio'
+    'nuxt-studio',
+    '@nuxtjs/mdc'
   ],
+  // components: {
+  //   global: true,
+  //   path: './components/prose'
+  // },
 
   devtools: {
     enabled: false
@@ -24,6 +29,22 @@ export default defineNuxtConfig({
           searchDepth: 1
         }
       }
+    }
+  },
+
+  // mdc: {
+  //   components: {
+  //     prose: true,
+  //     map: {
+  //       blockquote: 'proseBibleBlockquote'
+  //     }
+  //   }
+  // },
+
+  runtimeConfig: {
+    youversionAppKey: '',
+    public: {
+      youversionAppKey: ''
     }
   },
 
